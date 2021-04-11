@@ -30,7 +30,7 @@ body{
 }
 
 .jogodavelha-img:hover{
-    filter: brightness(30%)
+    filter: brightness(86%)
 }
 
 .menu{
@@ -39,6 +39,6 @@ body{
 	left: 0px;
 	top: 0px;
     background: #dedede;
-    padding: 15px;
+    padding: 20px 15px;
     color: #fff;
 }
