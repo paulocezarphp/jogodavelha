@@ -6,9 +6,13 @@ var game = [
 
 var jogadas = 9;
 
-var jogador_x_ou_o = "img2";
-var oponente_x_ou_o = "img1";
+var jogador_x_ou_o = "img1";
+var oponente_x_ou_o = "img2";
 var resultado = "";
+
+function Ia(){
+
+}
 
 function ChecarVitoria(){
 
@@ -82,7 +86,8 @@ document.getElementById("bot_0").addEventListener("click", function(){
 	}else{
 		game[0] = 'o';
 	}
-	ChecarVitoria(); 
+	ChecarVitoria();
+	Ia(); 
 });
 
 document.getElementById("bot_1").addEventListener("click", function(){
@@ -93,6 +98,7 @@ document.getElementById("bot_1").addEventListener("click", function(){
 		game[1] = 'o';
 	}
 	ChecarVitoria();
+	Ia();
 });
 
 document.getElementById("bot_2").addEventListener("click", function(){
@@ -103,6 +109,7 @@ document.getElementById("bot_2").addEventListener("click", function(){
 		game[2] = 'o';
 	}
 	ChecarVitoria();
+	Ia();
 });
 
 document.getElementById("bot_3").addEventListener("click", function(){
@@ -113,6 +120,7 @@ document.getElementById("bot_3").addEventListener("click", function(){
 		game[3] = 'o';
 	}
 	ChecarVitoria();
+	Ia();
 });
 
 document.getElementById("bot_4").addEventListener("click", function(){
@@ -123,6 +131,7 @@ document.getElementById("bot_4").addEventListener("click", function(){
 		game[4] = 'o';
 	}
 	ChecarVitoria();
+	Ia();
 });
 
 document.getElementById("bot_5").addEventListener("click", function(){
@@ -133,6 +142,7 @@ document.getElementById("bot_5").addEventListener("click", function(){
 		game[5] = 'o';
 	}
 	ChecarVitoria();
+	Ia();
 });
 
 document.getElementById("bot_6").addEventListener("click", function(){
@@ -143,6 +153,7 @@ document.getElementById("bot_6").addEventListener("click", function(){
 		game[6] = 'o';
 	}
 	ChecarVitoria();
+	Ia();
 });
 
 document.getElementById("bot_7").addEventListener("click", function(){
@@ -153,6 +164,7 @@ document.getElementById("bot_7").addEventListener("click", function(){
 		game[7] = 'o';
 	}
 	ChecarVitoria();
+	Ia();
 });
 
 document.getElementById("bot_8").addEventListener("click", function(){
@@ -163,4 +175,5 @@ document.getElementById("bot_8").addEventListener("click", function(){
 		game[8] = 'o';
 	}
 	ChecarVitoria();
+	Ia();
 });
