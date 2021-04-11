@@ -1,0 +1,44 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.box{
+	width: 350px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(128,128,128,0.3);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(128,128,128,0.3);
+	box-shadow: 0px 0px 5px 0px rgba(128,128,128,0.3);
+	border-radius: 5px;
+}
+
+.jogodavelha{
+    padding: 30px;	
+}
+
+.jogodavelha-grupo{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.jogodavelha-img{
+	width: 100%;
+	cursor: pointer;
+}
+
+.jogodavelha-img:hover{
+    filter: brightness(30%)
+}
+
+.menu{
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+    background: #dedede;
+    padding: 15px;
+    color: #fff;
+}
